@@ -1,5 +1,6 @@
 # dirtyghost
 Linux post exploitation framework designed to assist grey teams in persistence, reconnaissance, privilege escalation and leaving no trace.
+https://user-images.githubusercontent.com/74875302/100135963-60257780-2e58-11eb-9783-83a303cc7919.png
 
 Payloads
 
