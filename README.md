@@ -2,50 +2,50 @@
 Linux post exploitation framework designed to assist grey teams in persistence, reconnaissance, privilege escalation and leaving no trace.
 ![61988879-02d8a680-b017-11e9-8bc7-fb9673545026](https://user-images.githubusercontent.com/74875302/100136230-c3170e80-2e58-11eb-8528-bbc3fa93a21c.png)
 
-Payloads
+* Payloads
 
 Function to generate various encoded reverse shells in netcat, bash, python, php, ruby, perl
 
-SudoInject
+* SudoInject
 
 Function to inject sudo command with wrapper function to run a reverse root shell everytime "sudo" is run for privilege escalataion
 
-lsInject
+* lsInject
 
 Function to inject the "ls" command with a wrapper function to run payload everytime "ls" is run for persistence
 
-SSHKeyInject
+* SSHKeyInject
 
 Function to log keystrokes of a ssh process using strace
 
-Crontab
+* Crontab
 
 Function to create cron job that downloads payload from remote server and runs payload every minute for persistence
 
-SysTimer
+* SysTimer
 
 Function to create systemd timer that downloads and executes payload every 30 seconds for persistence.
 
-GetRoot
+* GetRoot
 
 Function to try various methods to escalate privileges
 
-Clearlogs
+* Clearlogs
 
 Function to clear logs and make investigation with forensics difficult
 
-MassInfoGrab
+* MassInfoGrab
 
 Function to grab mass reconaissance/information on system
 
-CheckVM
+* CheckVM
 
 Function to check if the system is a virtual machine
 
-MemoryExec
+* MemoryExec
 
 Function to execute remote bash script in memory
 
-BanIp
+* BanIp
 
 Function to BanIp using iptables
